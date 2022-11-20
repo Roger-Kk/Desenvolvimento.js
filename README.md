@@ -1,6 +1,6 @@
 # Desenvolvimento.js
 
-<h1>Exercícios e práticas em javascript</h1>
+<h2>Exercícios e práticas em javascript</h2>
 
 >Cada arquivo é um exercício. 
 
