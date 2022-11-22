@@ -4,7 +4,8 @@
 
 >Cada arquivo é um exercício. 
 
-p5Pong.js
+p5Pong.js contém execução em javascript para criação do jogo Pong. 
+
 ![image](https://user-images.githubusercontent.com/30131172/203208066-ed656976-5b46-46b9-aecc-0c198e297ed9.png)
 
 
