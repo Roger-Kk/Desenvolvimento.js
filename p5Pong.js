@@ -1,9 +1,8 @@
-
 let xBola = 300;
 let yBola = 200;
 let dBola = 15;
 
-let velBolaX = 5;
+let velBolaX = 6;
 let velBolaY = 4;
 
 let xRaquete = 5;
@@ -78,11 +77,10 @@ function verificaColisaoRaquete(){
 }
 
 function verificaColisaoRaqueteOponente(){
-  if(xBola - raio < xRaqueteOponente + raqueteCompr && yBola - raio < yRaqueteOponente + raqueteAlt && yBola + raio < yRaqueteOponente){
+  if(xBola + raio > xRaqueteOponente && yBola - raio < yRaqueteOponente + raqueteAlt && yBola + raio > yRaqueteOponente){
     velBolaX *= -1;
   }
 }
-
 
 
 
