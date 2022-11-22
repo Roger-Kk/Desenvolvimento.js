@@ -3,11 +3,16 @@ let xBola = 300;
 let yBola = 200;
 let dBola = 15;
 
-let velBolaX = 2;
-let velBolaY = 2;
+let velBolaX = 5;
+let velBolaY = 4;
 
 let xRaquete = 5;
 let yRaquete = 150;
+
+let xRaqueteOponente =  585;
+let yRaqueteOponente = 150;
+let velRaqueteOponente;
+
 let raqueteCompr = 10;
 let raqueteAlt = 90;
 
@@ -22,9 +27,11 @@ function draw() {
   mostraBola();
   movimentaBola();
   verificaColisaoBorda();
-  mostraRaquete();
+  mostraRaquete(xRaquete, yRaquete);
+  mostraRaquete(xRaqueteOponente, yRaqueteOponente);
   movimentaMinhaRaquete();
-  verificaColisaoRaquete()
+  movimentaRaqueteOponente();
+  verificaColisaoRaquete();
 }
  
 function mostraBola(){
@@ -45,8 +52,8 @@ function verificaColisaoBorda(){
   }  
 }
 
-function mostraRaquete(){
-  rect(xRaquete, yRaquete, raqueteCompr, raqueteAlt)
+function mostraRaquete(x, y){
+  rect(x, y, raqueteCompr, raqueteAlt)
 }
 
 function movimentaMinhaRaquete(){
@@ -56,6 +63,11 @@ function movimentaMinhaRaquete(){
    if(keyIsDown(DOWN_ARROW)){
     yRaquete += 10;
   }
+}
+
+function movimentaRaqueteOponente(){
+  velRaqueteOponente = yBola - yRaqueteOponente - raqueteCompr/2 -30;
+  yRaqueteOponente += velRaqueteOponente;
 }
 
 function verificaColisaoRaquete(){
