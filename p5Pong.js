@@ -1,4 +1,6 @@
 
+//Execute o código em https://editor.p5js.org/
+
 let xBola = 300;
 let yBola = 200;
 let dBola = 15;
