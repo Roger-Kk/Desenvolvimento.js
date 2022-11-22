@@ -32,6 +32,7 @@ function draw() {
   movimentaMinhaRaquete();
   movimentaRaqueteOponente();
   verificaColisaoRaquete();
+  verificaColisaoRaqueteOponente();
 }
  
 function mostraBola(){
@@ -75,6 +76,13 @@ function verificaColisaoRaquete(){
     velBolaX *= -1;
   }
 }
+
+function verificaColisaoRaqueteOponente(){
+  if(xBola - raio < xRaqueteOponente + raqueteCompr && yBola - raio < yRaqueteOponente + raqueteAlt && yBola + raio < yRaqueteOponente){
+    velBolaX *= -1;
+  }
+}
+
 
 
 
