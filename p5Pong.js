@@ -36,3 +36,9 @@ function verificaColisaoBorda(){
     velBolaY *= -1;
   }  
 }
+
+
+
+
+
+
