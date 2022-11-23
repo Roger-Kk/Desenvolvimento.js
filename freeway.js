@@ -1,3 +1,9 @@
+//Para rodar o jogo: 
+//Acesse https://editor.p5js.org/
+//Crie uma pasta chamada 'Imagens'
+//Faça upload das imagens em 'material_freeway.zip'
+//Execute o código
+
 let imagemDaEstrada;
 let imagemDoAtor;
 let imagemCarro;
