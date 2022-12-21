@@ -10,7 +10,7 @@
 
 2) freeway.js contém execução em javascript para criação do jogo FreeWay. 
 
-![image](https://upload.wikimedia.org/wikipedia/en/5/55/Freeway_%28Activision_video_game%29_screenshot.png)
+![image](https://github.com/Roger-Kk/Desenvolvimento.js/blob/Desenvolvimento/2.PNG?raw=true)
 
 
 
