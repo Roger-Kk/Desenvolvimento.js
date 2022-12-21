@@ -1,4 +1,7 @@
 //Para rodar o jogo: 
+//Utilize: https://editor.p5js.org/Roger-Kk/full/rbBZUTDXR
+
+//Para criar/editar o código e verificar sua implementação, siga os passos: 
 //Acesse https://editor.p5js.org/
 //Crie uma pasta chamada 'Imagens'
 //Faça upload das imagens em 'freeway_material.zip'
