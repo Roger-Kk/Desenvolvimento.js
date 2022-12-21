@@ -2,6 +2,7 @@
 //Acesse https://editor.p5js.org/
 //Crie uma pasta chamada 'Imagens'
 //Faça upload das imagens em 'freeway_material.zip'
+//Faça upload do arquivo p5.collide2D na opção sketch files > upload file
 //Execute o código
 
 //variáveis das imagens
