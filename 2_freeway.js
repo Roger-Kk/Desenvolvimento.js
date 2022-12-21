@@ -3,6 +3,7 @@
 //Crie uma pasta chamada 'Imagens'
 //Faça upload das imagens em 'freeway_material.zip'
 //Faça upload do arquivo p5.collide2D na opção sketch files > upload file
+//Inclua a tag <script src="p5.collide2d.js"></script> no arquivo index.html dentro de <body><main>
 //Execute o código
 
 //variáveis das imagens
