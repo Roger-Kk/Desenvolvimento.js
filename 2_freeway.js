@@ -3,6 +3,7 @@
 //Crie uma pasta chamada 'Imagens'
 //Faça upload das imagens em 'freeway_material.zip'
 //Execute o código
+//
 
 //variáveis das imagens
 let imagemDaEstrada;
