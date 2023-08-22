@@ -10,7 +10,7 @@
 
 2) freeway.js contém execução em javascript para criação do jogo FreeWay. 
 
-![image](https://github.com/Roger-Kk/Desenvolvimento.js/blob/Desenvolvimento/freeway_img.png?raw=true)
+![image](https://raw.githubusercontent.com/Roger-Kk/Desenvolvimento.js/Desenvolvimento/2-Freeway.js/freeway_img.png)
 
 3) mapaBrasil.html contém código html e JS para um mapa do Brasil Clicável. 
 
