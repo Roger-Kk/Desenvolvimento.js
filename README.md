@@ -18,7 +18,7 @@
 
 4) Random Color.js contém código html/Css e JS para uma página que atribui o fundo em cor aleatória ao clicar no botão.
 
-![image](https://user-images.githubusercontent.com/30131172/248141681-5275dcf8-6156-4134-a4da-408eff2db528.png)
+![Random Colors](https://github.com/Roger-Kk/Desenvolvimento.js/assets/30131172/450792b7-b494-45d4-98cf-fae969622774)
 
 
 
