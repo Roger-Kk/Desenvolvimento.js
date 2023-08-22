@@ -2,7 +2,7 @@
 
 <h2>Exercícios e práticas em javascript</h2>
 
->Cada arquivo é um exercício. 
+>Cada pasta é um exercício. 
 
 1) p5Pong.js contém execução em javascript para criação do jogo Pong. 
 
@@ -16,6 +16,9 @@
 
 ![image](https://user-images.githubusercontent.com/30131172/248141681-5275dcf8-6156-4134-a4da-408eff2db528.png)
 
+4) Random Color.js contém código html/Css e JS para uma página que atribui o fundo em cor aleatória ao clicar no botão.
+
+![image](https://user-images.githubusercontent.com/30131172/248141681-5275dcf8-6156-4134-a4da-408eff2db528.png)
 
 
 
