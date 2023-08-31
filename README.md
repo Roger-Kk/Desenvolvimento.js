@@ -10,7 +10,7 @@
 
 2) freeway.js contém execução em javascript para criação do jogo FreeWay. 
 
-![image](https://github.com/Roger-Kk/Desenvolvimento.js/blob/Desenvolvimento/freeway_img.png?raw=true)
+![image](https://raw.githubusercontent.com/Roger-Kk/Desenvolvimento.js/Desenvolvimento/2-Freeway.js/freeway_img.png)
 
 3) mapaBrasil.html contém código html e JS para um mapa do Brasil Clicável. 
 
@@ -18,7 +18,7 @@
 
 4) Random Color.js contém código html/Css e JS para uma página que atribui o fundo em cor aleatória ao clicar no botão.
 
-![image](https://user-images.githubusercontent.com/30131172/248141681-5275dcf8-6156-4134-a4da-408eff2db528.png)
+![Random Colors](https://github.com/Roger-Kk/Desenvolvimento.js/assets/30131172/1675cd10-2723-42cf-a44d-750eddbb34b9)
 
 
 
