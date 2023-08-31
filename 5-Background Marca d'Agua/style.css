@@ -1,0 +1,79 @@
+
+@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+
+/*--------------- Variáveis: --------------*/
+
+:root{
+    --ff-primary: "Roboto", sans-serif;
+    --ff-secondary: "Open Sans", sans-serif;
+}
+
+
+
+/*--------------  Styles:  ---------------*/
+body{
+    background-image: url(./IMG/cinza-claro2.png);
+    background-size: cover;
+    position: relative;
+}
+
+
+body::before {
+    content: "";
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: url(./IMG/cinza-claro2.png); /* Cor de fundo da marca d'água */
+    pointer-events: none; /* Impede que o elemento atrapalhe a interação do usuário com outros elementos */
+    z-index: -1; /* Coloca o elemento atrás de todo o conteúdo */
+  }
+  
+  body::after {
+    content: attr(data-watermark);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 30px; /* Tamanho da fonte do texto da marca d'água */
+    color: rgba(0, 0, 0, 0.2); /* Cor do texto da marca d'água */
+    pointer-events: none;
+    z-index: -1;
+  }
+
+
+nav{
+    background-color: lightblue;
+    height: 3rem;
+    width:100%;
+    display: grid;
+    place-items: center;
+}
+
+.nav-center{
+    background-color: lightblue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: var(--ff-primary);
+    font-size: 1.2rem;
+    color:#3844ec;
+    padding-left: 0.5rem;
+}
+
+main {
+    min-height: calc(100vh - 3rem);
+    display: grid;
+    place-items: center;
+  }
+
+.input_title{
+    position:relative; 
+    width:auto;
+    height: auto;
+    font-family:var(--ff-secondary);
+    font-size:1rem;
+    color: #333ba5;
+    justify-content: space-between;
+}
