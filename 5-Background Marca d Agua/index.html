@@ -18,13 +18,14 @@
             <input type="text" id="marcaAgua" placeholder="Digite aqui">
     </div>
     </main>
-<script>
-const input = document.getElementById("marcaAgua");
-const body = document.body;
 
-input.addEventListener("input", 
+<script>
+const inputVar = document.getElementById("marcaAgua");
+const bodyVar = document.body;
+
+inputVar.addEventListener("input", 
 function () {
-  body.setAttribute("data-watermark", input.value);
+  bodyVar.setAttribute("data-watermark", inputVar.value);
 });
 </script>
 
