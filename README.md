@@ -20,5 +20,8 @@
 
 ![Random Colors](https://github.com/Roger-Kk/Desenvolvimento.js/assets/30131172/1675cd10-2723-42cf-a44d-750eddbb34b9)
 
+5) Background Marca d' Agua contém código html/Css e JS para uma página que captura um input de texto e insere-o no background da página.
+
+![marca_agua](https://github.com/Roger-Kk/Desenvolvimento.js/assets/30131172/cd7527a6-f958-4601-b363-f5c122fcf8a6)
 
 
