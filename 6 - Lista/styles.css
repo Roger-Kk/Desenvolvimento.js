@@ -177,8 +177,8 @@ main {
   place-items: center;
 }
 /*
-=============== 
-Grocery List
+===============
+ List
 ===============
 */
 .section-center {
@@ -258,7 +258,7 @@ Grocery List
 .list-container {
   margin-top: 2rem;
   transition: var(--transition);
-  /*visibility: hidden;*/
+  visibility: hidden;
 }
 .show-container {
   visibility: visible;
